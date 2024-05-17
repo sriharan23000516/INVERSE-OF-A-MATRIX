@@ -17,9 +17,12 @@ End the program
 #Program to find the inverse of a matrix.
 #Developed by: Sriharan j v
 #RegisterNumber:212223100054
-import numpy as np
-matrix = np.array([
+import numpy as np  
+
+matrix = np.array([ 
+
     [1, 0, 3],
+    
     [-1, 2, -2],
     [2, 3, -1]
 ])
@@ -31,7 +34,6 @@ except np.linalg.LinAlgError:
     print("Matrix is singular and cannot be inverted.")
 
 
-```
 ## Output:
 
  ![image](https://github.com/sriharan23000516/INVERSE-OF-A-MATRIX/assets/139841769/0391c8c9-81c1-43f4-92e9-9ea2a9050072)
