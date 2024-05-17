@@ -17,16 +17,26 @@ End the program
 #Program to find the inverse of a matrix.
 #Developed by: Sriharan j v
 #RegisterNumber:212223100054
+
 import numpy as np  
+
 matrix = np.array([ 
+
 [1, 0, 3],
+
 [-1, 2, -2],
+
 [2, 3, -1]
+
 ])
 try:
+
     inverse_matrix = np.linalg.inv(matrix)
+    
     print(inverse_matrix)
+    
 except np.linalg.LinAlgError:
+
     print("Matrix is singular and cannot be inverted.")
 
 
